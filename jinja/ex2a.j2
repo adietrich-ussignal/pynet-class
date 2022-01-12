@@ -1,0 +1,7 @@
+! nxos1 
+interface {{ intf }}
+ ip address {{ ip_address[0] }}/{{ netmask }} 
+
+! nxos2
+interface {{ intf }}
+ ip address {{ ip_address[1] }}/{{ netmask }} 
